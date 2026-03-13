@@ -1,8 +1,7 @@
 const http = require('http');
 const https = require('https');
-
+const PORT = process.env.PORT || 3001;
 const SK_KEY = process.env.SK_KEY;
-const CLAUDE_KEY = process.env.CLAUDE_KEY;
 const CLAUDE_KEY = process.env.CLAUDE_KEY || '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';
 
 const ENDPOINTS = {
